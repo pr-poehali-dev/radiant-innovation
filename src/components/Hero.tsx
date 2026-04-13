@@ -25,13 +25,19 @@ export default function Hero() {
         />
       </motion.div>
 
-      <div className="relative z-10 text-center text-white">
-        <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight mb-6">
-          ОТКРОЙ
+      <div className="absolute inset-0 bg-black/40 z-[1]" />
+      <div className="relative z-10 text-center text-white px-6">
+        <p className="text-xs md:text-sm uppercase tracking-[0.3em] mb-4 opacity-80">ООО «Инвестэнерготранс»</p>
+        <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight mb-6 leading-none">
+          ЭНЕРГИЯ<br/>СЕВЕРА
         </h1>
-        <p className="text-lg md:text-xl max-w-2xl mx-auto px-6 opacity-90">
-          Исследуй границы дизайна с иммерсивным параллакс-эффектом
+        <p className="text-lg md:text-xl max-w-2xl mx-auto opacity-90 leading-relaxed">
+          Строительство энергоцентров и инженерной инфраструктуры на месторождениях ЯНАО.
+          7 реализованных проектов суммарной мощностью 152,5 МВт.
         </p>
+        <button className="mt-10 border border-white text-white px-8 py-3 uppercase tracking-wide text-sm hover:bg-white hover:text-black transition-all duration-300">
+          Наши проекты
+        </button>
       </div>
     </div>
   );
