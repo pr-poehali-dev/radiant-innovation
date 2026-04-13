@@ -29,6 +29,15 @@ export default function Footer() {
                   Контакты
                 </a>
               </div>
+              <div id="contact" className="flex flex-col gap-1 sm:gap-2">
+                <h3 className="mb-1 sm:mb-2 uppercase text-neutral-400 text-xs sm:text-sm">Контакты</h3>
+                <a
+                  href="tel:+79068188874"
+                  className="text-white hover:text-neutral-400 transition-colors duration-300 text-sm sm:text-base font-semibold"
+                >
+                  8 (906) 818 88-74
+                </a>
+              </div>
               <div className="flex flex-col gap-1 sm:gap-2">
                 <h3 className="mb-1 sm:mb-2 uppercase text-neutral-400 text-xs sm:text-sm">Деятельность</h3>
                 <a
